@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Flask on EC2</title>
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+    <div class="container">
+        <h1>{{ message }}</h1>
+        <p>This is a simple Flask App deployed on AWS EC2 with CSS styling.</p>
+        <button onclick="alert('Hello from EC2!')">Click Me</button>
+    </div>
+</body>
+</html>
